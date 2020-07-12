@@ -1,0 +1,3 @@
+export ACR_NAME=hoge
+export ACR_RESOURCE_GROUP=$ACR_NAME
+export AZURE_LOCATION=japaneast

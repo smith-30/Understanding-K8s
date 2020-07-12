@@ -61,3 +61,4 @@ node_modules
 
 # Env. vars export script
 set_env.sh
+.envrc
