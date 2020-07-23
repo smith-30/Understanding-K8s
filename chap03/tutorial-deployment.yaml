@@ -19,7 +19,7 @@ spec:
         env: stage
     spec:
       containers:
-      - image: sampleacrregistry.azurecr.io/photo-view:v1.0   # コンテナイメージの場所
+      - image: smith30sampleacrregistry.azurecr.io/photo-view:v1.0   # コンテナイメージの場所
         name: photoview-container   # コンテナ名
         ports:
         - containerPort: 80   # ポート番号

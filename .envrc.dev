@@ -8,5 +8,7 @@ export ACR_ID=
 export SP_NAME=
 export SP_PASSWORD=
 
+export APP_ID=$(az ad sp show --id http://$SP_NAME --query appId --output tsv)
+
 export AKS_CLUSTER_NAME=
 export AKS_RESOURCE_GROUP=$AKS_CLUSTER_NAME
