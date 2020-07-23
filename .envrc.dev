@@ -1,3 +1,12 @@
 export ACR_NAME=hoge
 export ACR_RESOURCE_GROUP=$ACR_NAME
 export AZURE_LOCATION=japaneast
+export ACR_ID=
+
+# SERVICE_PRINCIPALE
+# AKS Cluster が ACR リポジトリにアクセスするために権限を振る
+export SP_NAME=
+export SP_PASSWORD=
+
+export AKS_CLUSTER_NAME=
+export AKS_RESOURCE_GROUP=$AKS_CLUSTER_NAME
